@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    background-image: url("/assets/images/background-pattern-desktop.svg");
+    background-repeat: no-repeat;
+}
+
+.faq-container {
+    background-color: #f6f3fd;
+    width: 90%;
+    max-width: 750px;
+    margin: 150px auto;
+    padding: 20px;
+    border-radius: 15px;
+
+.minus{
+    display: none;
+}
+
+.para{
+    display: none;
+}
+.para.active{
+    display: block;
+}
+    
+}
+
+.faq-container h2 {
+    font-size: 1.5em;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.faq-container h2 .icon {
+    color: #ab47bc;
+    font-size: 1.2em;
+    margin-right: 8px;
+}
+
+.faq-item {
+    border-top: 1px solid #e0e0e0;
+    padding: 15px 0;
+}
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+}
+
+.toggle-icon {
+   color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    line-height: 1;
+}
+
+.para {
+    margin-top: 10px;
+    color: #666;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+.minus.active{
+    display: block;
+  }
+
+  .plus.inactive{
+    display: none;
+  }
+
+  
